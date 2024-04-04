@@ -1,0 +1,102 @@
+:root {
+    --primary: orange;
+    --background: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    margin: auto;
+    line-height: 32px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1,4rem 7%;
+    background-color: black;
+    border-bottom: 2px solid brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+}
+
+.top .sebelahkiri {
+    color: white;
+    background-color: black;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.top .sebelahkiri a:hover {
+    color: crimson;
+}
+
+.top span {
+    color: orange;
+}
+
+.photo1 {
+   display: flex;
+   justify-content: end;
+   align-items: end;
+}
+
+.photo3 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.letter_box1 {
+    width: 600px;
+    margin: 100px auto;
+    padding: 60px 80px;
+    background-color: #fff48e;
+    box-sizing: border-box;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.letter_box2 {
+    width: 600px;
+    margin: 100px auto;
+    padding: 60px 80px;
+    background-color: #fff48e;
+    box-sizing: border-box;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    right: 400px;
+}
+
+.letter_box3 {
+    width: 700px;
+    margin: 100px auto;
+    padding: 60px 80px;
+    background-color: #fff48e;
+    box-sizing: border-box;
+    font-size: 20px;
+    position: absolute;
+    top: 1200px;
+    right: 350px;
+}
+
+.footer img {
+    margin: 0px auto;
+    width: 100%;
+    display: block;
+}
